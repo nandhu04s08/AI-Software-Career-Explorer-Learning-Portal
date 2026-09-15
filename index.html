@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Software Explore & Learning | Master Modern Artificial Intelligence</title>
+    <meta name="description" content="Discover powerful AI software, learn machine learning, prompt engineering, and build practical AI projects step by step.">
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-brain"></i></div>
+                <span>AI<span class="gradient-text">Explore</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="pages/tools.html" class="nav-link">AI Tools Explorer</a>
+                <a href="pages/learning.html" class="nav-link">Learning Hub</a>
+                <a href="pages/projects.html" class="nav-link">AI Projects</a>
+                <a href="pages/resources.html" class="nav-link">Resources</a>
+                <a href="pages/about.html" class="nav-link">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="btn-icon" id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <a href="pages/tools.html" class="btn btn-primary" style="display: none; @media(min-width: 768px){display: inline-flex;}">
+                    Explore Directory
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        <div class="container hero-content">
+            <span class="section-tag"><i class="fa-solid fa-sparkles"></i> The Premier AI Learning Portal</span>
+            <h1 class="hero-title">Explore AI. Learn AI.<br><span class="gradient-text">Build Your Future.</span></h1>
+            <p class="hero-subtitle">
+                Discover powerful AI software, learn how neural networks work, and develop practical AI skills step by step with our interactive courses and real-world project blueprints.
+            </p>
+            
+            <div class="hero-btns">
+                <a href="pages/tools.html" class="btn btn-primary">
+                    <i class="fa-solid fa-compass"></i> Explore AI Tools
+                </a>
+                <a href="pages/learning.html" class="btn btn-secondary">
+                    <i class="fa-solid fa-graduation-cap"></i> Start Learning
+                </a>
+            </div>
+
+            <!-- Stats Counter Row -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">24+</div>
+                    <div class="stat-label">AI Tools Indexed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">9</div>
+                    <div class="stat-label">Learning Tracks</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">7</div>
+                    <div class="stat-label">Beginner Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">100%</div>
+                    <div class="stat-label">Free Access</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular AI Tools Section -->
+    <section class="container" style="padding: 4rem 1.5rem;">
+        <div class="section-header">
+            <span class="section-tag"><i class="fa-solid fa-fire"></i> Trending Software</span>
+            <h2 class="section-title">Popular AI Tools</h2>
+            <p class="section-desc">Hand-picked generative AI, coding assistants, and research software powering the modern tech ecosystem.</p>
+        </div>
+
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="tool-card">
+                <div class="tool-card-header">
+                    <div class="tool-icon-wrapper"><i class="fa-solid fa-robot"></i></div>
+                    <button class="bookmark-btn" data-id="chatgpt"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+                <span class="tool-category">AI Chatbots</span>
+                <h3 class="tool-name">ChatGPT</h3>
+                <p class="tool-desc">Conversational AI model capable of text generation, coding help, complex reasoning, and multimodal analysis.</p>
+                <div class="tool-card-footer">
+                    <span class="badge badge-beginner">Beginner</span>
+                    <a href="pages/tools.html" class="btn btn-outline" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">View Profile</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tool-card">
+                <div class="tool-card-header">
+                    <div class="tool-icon-wrapper"><i class="fa-solid fa-brain"></i></div>
+                    <button class="bookmark-btn" data-id="claude"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+                <span class="tool-category">Generative AI</span>
+                <h3 class="tool-name">Claude 3.5 Sonnet</h3>
+                <p class="tool-desc">Anthropic's flagship model offering deep reasoning, 200k context window, and live code artifact previews.</p>
+                <div class="tool-card-footer">
+                    <span class="badge badge-intermediate">Intermediate</span>
+                    <a href="pages/tools.html" class="btn btn-outline" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">View Profile</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tool-card">
+                <div class="tool-card-header">
+                    <div class="tool-icon-wrapper"><i class="fa-solid fa-code"></i></div>
+                    <button class="bookmark-btn" data-id="cursor"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+                <span class="tool-category">Coding AI</span>
+                <h3 class="tool-name">Cursor AI</h3>
+                <p class="tool-desc">AI-native code editor built for rapid software engineering with multi-file edits and automated bug fixing.</p>
+                <div class="tool-card-footer">
+                    <span class="badge badge-intermediate">Intermediate</span>
+                    <a href="pages/tools.html" class="btn btn-outline" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">View Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="pages/tools.html" class="btn btn-secondary">
+                View All 24+ AI Software Tools <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- AI Learning Paths Highlights -->
+    <section style="background: var(--bg-secondary); padding: 5rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-road"></i> Structured Curriculum</span>
+                <h2 class="section-title">Beginner Friendly Learning Paths</h2>
+                <p class="section-desc">Master core AI competencies step by step from zero prerequisite knowledge to advanced implementation.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="learning-card">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                        <div class="tool-icon-wrapper"><i class="fa-solid fa-lightbulb"></i></div>
+                        <span class="badge badge-beginner">Beginner</span>
+                    </div>
+                    <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">AI Basics & Fundamentals</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">Demystify AI jargon, core neural network concepts, and historical breakthroughs in computing.</p>
+                    <a href="pages/learning.html" class="btn btn-outline" style="width: 100%;">Explore Lessons</a>
+                </div>
+
+                <div class="learning-card">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                        <div class="tool-icon-wrapper"><i class="fa-solid fa-comments"></i></div>
+                        <span class="badge badge-beginner">Beginner</span>
+                    </div>
+                    <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Prompt Engineering</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">Learn system instructions, zero-shot prompting, and chain-of-thought to get perfect AI outputs.</p>
+                    <a href="pages/learning.html" class="btn btn-outline" style="width: 100%;">Explore Lessons</a>
+                </div>
+
+                <div class="learning-card">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                        <div class="tool-icon-wrapper"><i class="fa-brands fa-python"></i></div>
+                        <span class="badge badge-beginner">Beginner</span>
+                    </div>
+                    <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Python for AI & Data</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">Master NumPy, Pandas, Matplotlib, and REST APIs essential for building machine learning pipelines.</p>
+                    <a href="pages/learning.html" class="btn btn-outline" style="width: 100%;">Explore Lessons</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Learn AI? Section -->
+    <section class="container" style="padding: 5rem 1.5rem;">
+        <div class="section-header">
+            <span class="section-tag"><i class="fa-solid fa-bullseye"></i> Future Ready</span>
+            <h2 class="section-title">Why Learn Artificial Intelligence Today?</h2>
+            <p class="section-desc">AI skills are fast becoming the most sought-after capability across software development, research, and industry innovation.</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="tool-card" style="text-align: center;">
+                <div class="tool-icon-wrapper" style="margin: 0 auto 1.25rem auto;"><i class="fa-solid fa-rocket"></i></div>
+                <h3 style="margin-bottom: 0.5rem;">Accelerate Productivity</h3>
+                <p style="color: var(--text-secondary);">Automate repetitive coding, writing, and analytical tasks to 10x your daily output.</p>
+            </div>
+            <div class="tool-card" style="text-align: center;">
+                <div class="tool-icon-wrapper" style="margin: 0 auto 1.25rem auto;"><i class="fa-solid fa-chart-line"></i></div>
+                <h3 style="margin-bottom: 0.5rem;">Career Advancement</h3>
+                <p style="color: var(--text-secondary);">Command top salaries by becoming proficient in AI application engineering and model tuning.</p>
+            </div>
+            <div class="tool-card" style="text-align: center;">
+                <div class="tool-icon-wrapper" style="margin: 0 auto 1.25rem auto;"><i class="fa-solid fa-gears"></i></div>
+                <h3 style="margin-bottom: 0.5rem;">Build Modern Apps</h3>
+                <p style="color: var(--text-secondary);">Create smart chatbots, custom recommendation engines, and autonomous agent workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Feedback Form -->
+    <section class="container" style="padding: 4rem 1.5rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: var(--radius-lg); padding: 3rem; max-width: 800px; margin: 0 auto; backdrop-filter: blur(12px);">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <span class="section-tag"><i class="fa-solid fa-envelope"></i> Get In Touch</span>
+                <h2>Have Questions or Feedback?</h2>
+                <p style="color: var(--text-secondary);">We are dedicated to helping beginners learn AI. Send us a message!</p>
+            </div>
+            
+            <form id="contact-form" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
+                    <input type="text" class="search-input" placeholder="Your Name" required style="padding-left: 1.25rem;">
+                    <input type="email" class="search-input" placeholder="Your Email" required style="padding-left: 1.25rem;">
+                </div>
+                <input type="text" class="search-input" placeholder="Subject" required style="padding-left: 1.25rem;">
+                <textarea class="search-input" rows="5" placeholder="Your Message..." required style="padding-left: 1.25rem; resize: vertical;"></textarea>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"><i class="fa-solid fa-brain"></i></div>
+                        <span>AI<span class="gradient-text">Explore</span></span>
+                    </a>
+                    <p>Empowering beginners and students to discover, learn, and master modern Artificial Intelligence software tools.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Pages</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="pages/tools.html">AI Software Explorer</a>
+                        <a href="pages/learning.html">Learning Hub</a>
+                        <a href="pages/projects.html">AI Projects</a>
+                        <a href="pages/resources.html">Resources</a>
+                        <a href="pages/about.html">About</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Top Categories</h4>
+                    <div class="footer-links">
+                        <a href="pages/tools.html">Generative AI</a>
+                        <a href="pages/tools.html">Coding AI</a>
+                        <a href="pages/tools.html">Image Generation</a>
+                        <a href="pages/tools.html">Data Science</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Connect</h4>
+                    <div class="footer-links">
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub Repository</a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i> Twitter / X</a>
+                        <a href="#"><i class="fa-brands fa-discord"></i> Discord Community</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Software Explore & Learning. Open Source Educational Platform.</p>
+                <p>Built with <i class="fa-solid fa-heart" style="color: var(--accent-rose);"></i> for AI Learners</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Modal Overlay Container -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
